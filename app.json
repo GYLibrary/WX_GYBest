@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/Classes/Login/login",
     "pages/Classes/Home/index",
     "pages/Classes/Manager/index",
     "pages/Classes/Msg/index",

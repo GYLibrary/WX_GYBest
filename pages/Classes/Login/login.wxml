@@ -1,0 +1,14 @@
+<form bindsubmit="formSubmit" bindreset="formRest">
+    <view class="section">
+        <input placeholder="请输入您的名" name="username" />
+    </view>
+    <view>
+        <input placeholder="请输入您的密码" password name="paswd" />
+    </view>
+    <view class="btn-area">
+        <button form-type="submit">登录</button>
+        
+    </view>
+
+
+</form>
