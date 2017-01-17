@@ -62,11 +62,6 @@ Page({
           success: function(res){
             // success
             console.log(res.data)
-               
-            wx.redirectTo({
-              url: '/pages/Classes/Home/index',
-              console.log('跳转成功')
-            })
           },
           fail: function() {
             // fail
@@ -75,7 +70,24 @@ Page({
           complete: function() {
             // complete
             console.log('成功')
-         
+            //跳转到应用内某个非tabbar得界面
+            // wx.redirectTo({
+            //   url: 'tabBar'
+            // //   console.log('跳转成功')
+            // })
+            //跳转到 tabBar 页面，并关闭其他所有非 tabBar 页面
+            wx.switchTab({
+              url: '/pages/Classes/Home/index',
+              success: function(res){
+                // success
+              },
+              fail: function() {
+                // fail
+              },
+              complete: function() {
+                // complete
+              }
+            })
           }
         })
     }     
