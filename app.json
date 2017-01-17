@@ -19,26 +19,26 @@
     "list": [{
       "pagePath": "pages/Classes/Home/index",
       "text": "首页",
-      "iconPat": "image/home.png",
-      "selectedIconPath": "image/home1.png"
+      "iconPath": "pages/image/tabbar/guide_home.png",
+      "selectedIconPath": "pages/image/tabbar/guide_home_on.png"
     },
     {
       "pagePath": "pages/Classes/Manager/index",
       "text": "管理",
-      "iconPat": "pages/image/tabbar/guide_manage.png",
+      "iconPath": "pages/image/tabbar/guide_manage.png",
       "selectedIconPath": "pages/image/tabbar/guide_manage_on.png"
     },
     {
       "pagePath": "pages/Classes/Msg/index",
       "text": "消息",
-      "iconPat": "pages/image/tabbar/guide_msg.png",
+      "iconPath": "pages/image/tabbar/guide_msg.png",
       "selectedIconPath": "pages/image/tabbar/guide_msg_on.png"
     },
     {
       "pagePath": "pages/Classes/MyInfo/index",
       "text": "个人中心",
-      "iconPat": "pages/image/tabbar/guide_my.png",
-      "selectedIconPath": "pages/images/tabbar/guide_my_on.png"
+      "iconPath": "pages/image/tabbar/guide_my.png",
+      "selectedIconPath": "pages/image/tabbar/guide_my_on.png"
     }
     ]
   },
