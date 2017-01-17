@@ -1,9 +1,9 @@
 <form bindsubmit="formSubmit" bindreset="formRest">
     <view class="section">
-        <input placeholder="请输入您的名字" name="username" />
+        <input placeholder="请输入您的名字" name="username" value="15221981520" />
     </view>
     <view class="section">
-        <input placeholder="请输入您的密码" password name="paswd" />
+        <input placeholder="请输入您的密码" password name="paswd" value="666666" />
     </view>
     <view class="btn-area">
         <button form-type="submit">登录</button>

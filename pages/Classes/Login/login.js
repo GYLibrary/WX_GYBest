@@ -62,6 +62,11 @@ Page({
           success: function(res){
             // success
             console.log(res.data)
+               
+            wx.redirectTo({
+              url: '/pages/Classes/Home/index',
+              console.log('跳转成功')
+            })
           },
           fail: function() {
             // fail
@@ -70,6 +75,7 @@ Page({
           complete: function() {
             // complete
             console.log('成功')
+         
           }
         })
     }     
