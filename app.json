@@ -8,7 +8,7 @@
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#BBDEF8",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle":"black"
   },
@@ -42,6 +42,12 @@
       "selectedIconPath": "pages/image/tabbar/guide_my_on.png"
     }
     ]
+  },
+  "networkTimeout": {
+    "request": 20000,
+    "connectSocket": 20000,
+    "uploadFile": 20000,
+    "downloadFile": 20000
   },
   "debug":true
 }
