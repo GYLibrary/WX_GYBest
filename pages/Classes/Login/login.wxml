@@ -1,6 +1,6 @@
 <form bindsubmit="formSubmit" bindreset="formRest">
     <view class="section">
-        <input placeholder="请输入您的名" name="username" />
+        <input placeholder="请输入您的名字" name="username" />
     </view>
     <view class="section">
         <input placeholder="请输入您的密码" password name="paswd" />
