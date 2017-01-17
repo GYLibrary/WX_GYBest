@@ -1,7 +1,9 @@
 {
   "pages":[
-    "pages/index/index",
-    "pages/index/index"
+    "pages/Classes/Home/index",
+    "pages/Classes/Manager/index",
+    "pages/Classes/Msg/index",
+    "pages/Classes/MyInfo/index"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -15,17 +17,30 @@
     "selectedColor": "#89bdf7",
     "borderStyle": "black",
     "list": [{
-      "pagePath": "pages/index/index",
+      "pagePath": "pages/Classes/Home/index",
       "text": "首页",
       "iconPat": "pages/images/tabbar/guide_home.png",
       "selectedIconPath": "pages/images/tabbar/guide_home_on.png"
     },
     {
-      "pagePath": "pages/index/index",
+      "pagePath": "pages/Classes/Manager/index",
       "text": "管理",
       "iconPat": "pages/images/tabbar/guide_manage.png",
       "selectedIconPath": "pages/images/tabbar/guide_manage_on.png"
+    },
+    {
+      "pagePath": "pages/Classes/Msg/index",
+      "text": "消息",
+      "iconPat": "pages/images/tabbar/guide_msg.png",
+      "selectedIconPath": "pages/images/tabbar/guide_msg_on.png"
+    },
+    {
+      "pagePath": "pages/Classes/MyInfo/index",
+      "text": "个人中心",
+      "iconPat": "pages/images/tabbar/guide_my.png",
+      "selectedIconPath": "pages/images/tabbar/guide_my_on.png"
     }
     ]
-  }
+  },
+  "debug":true
 }
