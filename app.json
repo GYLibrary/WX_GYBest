@@ -1,9 +1,10 @@
 {
   "pages":[
-    "pages/Classes/Home/index",
+    "pages/index/index",
     "pages/Classes/Manager/index",
     "pages/Classes/Msg/index",
-    "pages/Classes/MyInfo/index"
+    "pages/Classes/MyInfo/index",
+    "pages/logs/index"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -17,28 +18,28 @@
     "selectedColor": "#89bdf7",
     "borderStyle": "white",
     "list": [{
-      "pagePath": "pages/Classes/Home/index",
+      "pagePath": "pages/index/index",
       "text": "首页",
-      "iconPat": "image/home.png",
-      "selectedIconPath": "image/home1.png"
+      "iconPath": "image/guide_home.png",
+      "selectedIconPath": "image/guide_home_on.png"
     },
     {
       "pagePath": "pages/Classes/Manager/index",
       "text": "管理",
-      "iconPat": "pages/image/tabbar/guide_manage.png",
-      "selectedIconPath": "pages/image/tabbar/guide_manage_on.png"
+      "iconPath": "image/guide_manage.png",
+      "selectedIconPath": "image/guide_manage_on.png"
     },
     {
       "pagePath": "pages/Classes/Msg/index",
       "text": "消息",
-      "iconPat": "pages/image/tabbar/guide_msg.png",
-      "selectedIconPath": "pages/image/tabbar/guide_msg_on.png"
+      "iconPath": "image/guide_msg.png",
+      "selectedIconPath": "image/guide_msg_on.png"
     },
     {
       "pagePath": "pages/Classes/MyInfo/index",
       "text": "个人中心",
-      "iconPat": "pages/image/tabbar/guide_my.png",
-      "selectedIconPath": "pages/images/tabbar/guide_my_on.png"
+      "iconPath": "image/guide_my.png",
+      "selectedIconPath": "image/guide_my_on.png"
     }
     ]
   },
