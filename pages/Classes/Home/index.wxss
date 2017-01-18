@@ -19,3 +19,25 @@
 .usermotto {
   margin-top: 200px;
 }*/
+
+page {
+  background-color: #fff;
+  height: 100%;
+}
+.wrapper {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.banner {
+  /*bootom:200px;*/
+  height: 150px;
+}
+
+.banner image {
+  width: 100%;
+  height: 150%;
+}

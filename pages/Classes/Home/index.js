@@ -4,6 +4,15 @@ Page({
   data: {
     // motto: 'Hello World',
     // userInfo: {}
+    imgUrls:[
+      '/pages/image/HomeBanner/banner1@2x.jpg',
+      '/pages/image/HomeBanner/banner2@2x.jpg',
+      '/pages/image/HomeBanner/banner3@2x.jpg'
+    ],
+    indicatorDots:true,
+    autoplay: true,
+    interval:5000,
+    duration:1000
   },
   //事件处理函数
   bindViewTap: function() {
