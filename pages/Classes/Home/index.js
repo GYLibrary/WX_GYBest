@@ -2,8 +2,8 @@ var app=getApp()
 Page({
   //页面的初始数据
   data: {
-    motto: 'Hello World',
-    userInfo: {}
+    // motto: 'Hello World',
+    // userInfo: {}
   },
   //事件处理函数
   bindViewTap: function() {
@@ -17,12 +17,12 @@ Page({
     console.log('onLoad')
     var that = this
     //调用应用实例的方法获取全局数据
-    app.getUserInfo(function(userInfo){
-      //更新数据
-      that.setData({
-        userInfo:userInfo
-      })
-    })
+    // app.getUserInfo(function(userInfo){
+    //   //更新数据
+    //   that.setData({
+    //     userInfo:userInfo
+    //   })
+    // })
   },
   onReady: function() {
     console.log('监听页面初次渲染完成')
